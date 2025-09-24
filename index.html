@@ -190,8 +190,8 @@ body.offcanvas #colorlib-aside {
 .Home_floatLeft__vykil {
     bottom: 20px;
     right: 20px;
-    position: fixed;
-    z-index: 99999999;
+    /* position: fixed;
+    z-index: 99999999; */
 }
 .Icons_img__Phtx8{
 	width: 6rem;
@@ -210,6 +210,20 @@ padding-bottom: 12px;
 }
 
 @media screen and (max-width: 992px) {
+	.homepage{
+		    background-image: url(images/for\ portfolio-mobile.png) !important;
+	}
+
+	#colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+    color: wheat;
+ width: 50%;
+    text-align: left;
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner {
+   
+    padding: 0.5em;
+    
+}
     body {
         font-size: 11px;
     }
@@ -297,7 +311,7 @@ padding-bottom: 12px;
 			</nav>
 
 			<!-- --here-- -->
-			 <!-- <div class="Home_floatLeft__vykil">
+			 <div class="Home_floatLeft__vykil">
 				<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
 					<a  href="https://github.com/reerajput930" target="_blank"> <img class="Icons_img__Phtx8" src="images/github.69ffd9cd5a846c976177.png"></a>
@@ -306,7 +320,7 @@ padding-bottom: 12px;
 					<a  href="https://www.youtube.com/@codewithree930?sub_confirmation=1" target="_blank"><img style="width: 5rem; " class="Icons_img__Phtx8 Icons_insta__UcHAC" src="images/download.png"></a>
 					
 				</div>
-			 </div> -->
+			 </div>
 
 		</aside>
 
@@ -314,8 +328,8 @@ padding-bottom: 12px;
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
 					<ul class="slides">
-				   	<li style="background-image: url(images/for\ portfolio.png);">
-				   		<div class="overlay"></div>
+				   	<li class="homepage" style="background-image: url(images/for\ portfolio.png);">
+				   		
 				   		<div class="container-fluid">
 				   			<div class="row">
 					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
@@ -323,7 +337,7 @@ padding-bottom: 12px;
 					   					<div class="desc">
 						   					<h1>Hi Human! <br>I'm Riya .</h1>
 						   					<h2>How's Life going? How you doing? - joe style 😉</h2>
-												<p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p>
+												<!-- <p><a class="btn btn-primary btn-learn">Download CV <i class="icon-download4"></i></a></p> -->
 											</div>
 					   				</div>
 					   			</div>
