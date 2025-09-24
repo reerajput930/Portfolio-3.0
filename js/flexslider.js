@@ -1127,8 +1127,6 @@
       video: !1,
       controlNav: !0,
       directionNav: !0,
-      prevText: "Previous",
-      nextText: "Next",
       keyboard: !0,
       multipleKeyboard: !1,
       mousewheel: !1,

@@ -77,7 +77,7 @@
 }
 
 .collapsing {
-    background-color: black !important;
+    background-color: unset !important;
 }
 
 		    .col-md-6 {
@@ -134,12 +134,21 @@ color:black;
 
 .collapse.in {
 
-    background-color: black;
+    background-color: unset;
 }
-
+body.offcanvas #colorlib-aside {
+    
+    background: wheat;
+    
+}
 .panel-heading a.collapsed {
     background: wheat;
        color: black;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+    background-color: black;
 }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
@@ -200,6 +209,60 @@ padding-bottom: 12px;
     padding-top: 0;
 }
 
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 11px;
+    }
+	p {
+    margin-bottom: 1em;
+
+    font-size: 1.2rem;
+}
+
+.colorlib-heading {
+    font-size: 19px;
+    margin-bottom: 1em;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 a {
+    
+    font-weight: 800;
+    font-size: 15px;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+    color: black;
+    font-size: x-small;
+}
+
+.hire h2 {
+    line-height: 1.1;
+    color: black;
+    font-size: 21px;
+}
+.progress-wrap h3 {
+    font-size: 13px;
+    font-family: "Quicksand", Arial, sans-serif;
+    margin-bottom: 5px;
+}
+.colorlib-counters .colorlib-counter {
+    font-size: 29px;
+    display: block;
+    color: white;
+    font-family: "Quicksand", Arial, sans-serif;
+    width: 100%;
+    font-weight: 500;
+    /* margin-bottom: .3em; */
+}
+.colorlib-counters .colorlib-counter-label {
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-bottom: 1em;
+    display: block;
+    font-size: 16px;
+}
+
+}
     </style>
 
 	</head>
@@ -1034,12 +1097,12 @@ phone, email, and in-person during peak hours</li>
 						</div>
 					</div>
 				
-					<div>
+					<div style="display: flex; flex-wrap: wrap;">
 
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/Nt7AR1cpRoM?si=goDd8GAdUxjQnEDR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/UpbUtFl5Q3k?si=_m7oU74ghRWT_VTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/MgQ98JTQxqk?si=9fpLr_C0ytq5xsF9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-						<iframe width="560" height="315" src="https://www.youtube.com/embed/EAsSa5UYkMQ?si=wVOZMtYwJK08dkcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe  style="margin: 3px ;" width="560" height="315" src="https://www.youtube.com/embed/Nt7AR1cpRoM?si=goDd8GAdUxjQnEDR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe style="margin: 3px ;" width="560" height="315" src="https://www.youtube.com/embed/UpbUtFl5Q3k?si=_m7oU74ghRWT_VTt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe style="margin: 3px ;" width="560" height="315" src="https://www.youtube.com/embed/MgQ98JTQxqk?si=9fpLr_C0ytq5xsF9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+						<iframe  style="margin: 3px ;"width="560" height="315" src="https://www.youtube.com/embed/EAsSa5UYkMQ?si=wVOZMtYwJK08dkcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 					</div>
 					
